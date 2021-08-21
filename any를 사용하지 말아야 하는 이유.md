@@ -1,7 +1,10 @@
 
 # ❌```any```를 사용하지 말아야 하는 이유
 
-![image](https://user-images.githubusercontent.com/40799546/129215058-f590d4b7-dd41-4069-8bf8-c21b8c5b2b8f.png)
+## any
+❌ **Don’t** use `any` as a type unless you are in the process of migrating a JavaScript project to TypeScript. The compiler *effectively* treats `any` as “please turn off type checking for this thing”. It is similar to putting an `@ts-ignore` comment around every usage of the variable. This can be very helpful when you are first migrating a JavaScript project to TypeScript as you can set the type for stuff you haven’t migrated yet as `any`, but in a full TypeScript project you are disabling type checking for any parts of your program that use it.
+
+In cases where you don’t know what type you want to accept, or when you want to accept anything because you will be blindly passing it through without interacting with it, you can use [unknown](https://www.typescriptlang.org/play/#example/unknown-and-never).
 
 ## any
 자바스크립트 프로젝트를 타입스크립트으로 옮기고 있지 않는 한 ```any```를 하나의 데이터 타입으로 사용하지 마세요. 
