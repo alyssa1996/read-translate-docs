@@ -15,3 +15,7 @@
 **1. Motivation: Redux 탄생 배경** <br>
 > 📖 [바로가기](https://github.com/alyssa1996/read-translate-docs/blob/main/redux-motivation.md) </br>
   👉 [Notion으로 보기](https://glamorous-cirrus-4ee.notion.site/Redux-Motivation-4aee40f47f234ca98cfa555eacc12400)
+
+**2. Three-Principles: Redux의 세 가지 규칙** <br>
+> 📖 [바로가기](https://github.com/alyssa1996/read-translate-docs/blob/main/redux-three-principles.md) </br>
+  👉 [Notion으로 보기](https://glamorous-cirrus-4ee.notion.site/Redux-Three-Principles-b47fac1e7c194ac8bcbf4f4ac233eae2)
